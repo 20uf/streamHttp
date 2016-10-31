@@ -1,0 +1,28 @@
+{
+  "name": "mco/StreamHttp",
+  "type": "library",
+  "description": "streamHttp is a PHP HTTP client library",
+  "keywords": ["stream", "http", "rest", "web service", "curl", "client", "HTTP client"],
+  "homepage": "https://streamhttp-doc.github.io",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael COULLERET",
+      "email": "michael@coulleret.pro",
+      "homepage": "https://github.com/20uf"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "psr/http-message": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.0",
+    "psr/log": "^1.0"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "StreamHttp\\Tests\\": "tests/"
+    }
+  }
+}
