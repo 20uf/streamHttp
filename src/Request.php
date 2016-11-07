@@ -58,9 +58,9 @@ class Request implements RequestInterface
     protected $protocol = '1.1';
 
     /**
-     * @const http methods
+     * @var array
      */
-    const HTTP_METHODS = ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'];
+    private $httpMethods = ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'];
 
     /**
      * constructor Client
@@ -384,7 +384,7 @@ class Request implements RequestInterface
             throw new UnexpectedTypeException($method, 'string');
         }
 
-        if (in_array(strtoupper($method), self::HTTP_METHODS) === true) {
+        if (in_array(strtoupper($method), $this->httpMethods) === true) {
             return true;
         }
 
