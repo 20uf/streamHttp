@@ -3,26 +3,24 @@
 /*
  * This file is part of the stream project.
  *
+ * (c) OsLab <https://github.com/OsLab>
+ *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Tests;
+namespace OsLab\Tests;
 
 use Psr\Http\Message\UriInterface;
-use StreamHttp\Request;
-use StreamHttp\Uri;
+use OsLab\StreamHttp\Request;
+use OsLab\StreamHttp\Uri;
 
 /**
- * Class RequestTest
- *
  * @author Michael COULLERET <michael@coulleret.pro>
+ * @author Florent DESPIERRES <orions07@gmail.com>
  */
 class RequestTest extends \PHPUnit_Framework_TestCase
 {
-    /**
-     * @var Request
-     */
     private $request;
 
     public function setUp()
@@ -32,7 +30,7 @@ class RequestTest extends \PHPUnit_Framework_TestCase
 
     public function testConstructorRaisesExceptionInvalidArgumentExceptionMethod()
     {
-        $this->setExpectedException('InvalidArgumentException');
+        $this->expectException('InvalidArgumentException');
 
         new Request(null, null);
     }
@@ -51,4 +49,3 @@ class RequestTest extends \PHPUnit_Framework_TestCase
         $this->assertNotSame($request, $this->request);
     }
 }
-

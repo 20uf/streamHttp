@@ -3,20 +3,23 @@
 /*
  * This file is part of the stream project.
  *
+ * (c) OsLab <https://github.com/OsLab>
+ *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace StreamHttp;
+namespace OsLab\StreamHttp;
 
 use Psr\Http\Message\UriInterface;
-use StreamHttp\Exception\InvalidArgumentException;
-use StreamHttp\Exception\UnexpectedTypeException;
+use OsLab\StreamHttp\Exception\InvalidArgumentException;
+use OsLab\StreamHttp\Exception\UnexpectedTypeException;
 
 /**
  * Value object representing a URI.
  *
  * @author Michael COULLERET <michael@coulleret.pro>
+ * @author Florent DESPIERRES <orions07@gmail.com>
  */
 class Uri implements UriInterface
 {
