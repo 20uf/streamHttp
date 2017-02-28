@@ -1,5 +1,5 @@
 {
-  "name": "OsLab/StreamHttp",
+  "name": "oslab/stream-http",
   "description": "streamHttp is a PHP HTTP client library",
   "type": "library",
   "keywords": ["stream", "http", "rest", "web service", "curl", "client", "HTTP client"],
