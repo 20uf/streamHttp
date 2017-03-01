@@ -2,12 +2,12 @@ OsLab StreamHttp library
 ========================
 > The StreamHttp library defines an object-oriented layer for the HTTP specification.
 
-[![Build Status](https://travis-ci.org/OsLab/oslab/stream-http.svg?branch=master)](https://travis-ci.org/OsLab/oslab/stream-http)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/OsLab/oslab/stream-http/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/OsLab/oslab/stream-http/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/OsLab/oslab/stream-http/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/OsLab/oslab/stream-http/?branch=master)
-[![Total Downloads](https://poser.pugx.org/OsLab/oslab/stream-http/downloads)](https://packagist.org/packages/OsLab/oslab/stream-http)
-[![Latest Stable Version](https://poser.pugx.org/OsLab/oslab/stream-http/v/stable)](https://packagist.org/packages/OsLab/oslab/stream-http)
-[![License](https://poser.pugx.org/OsLab/oslab/stream-http/license)](https://packagist.org/packages/OsLab/SupervisorBundle)
+[![Build Status](https://travis-ci.org/OsLab/streamHttp.svg?branch=master)](https://travis-ci.org/OsLab/streamHttp)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/OsLab/streamHttp/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/OsLab/streamHttp/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/OsLab/streamHttp/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/OsLab/streamHttp/?branch=master)
+[![Total Downloads](https://poser.pugx.org/OsLab/streamHttp/downloads)](https://packagist.org/packages/OsLab/streamHttp)
+[![Latest Stable Version](https://poser.pugx.org/OsLab/streamHttp/v/stable)](https://packagist.org/packages/OsLab/streamHttp)
+[![License](https://poser.pugx.org/OsLab/streamHttp/license)](https://packagist.org/packages/OsLab/SupervisorBundle)
 
 Introduction
 -------------
@@ -39,7 +39,7 @@ Or you can add it in the composer.json. Just check Packagist for the version you
 
 ## Credits
 
-* [All contributors](https://github.com/OsLab/oslab/stream-http/graphs/contributors)
+* [All contributors](https://github.com/OsLab/streamHttp/graphs/contributors)
 
 ## License
 
