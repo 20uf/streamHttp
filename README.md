@@ -1,13 +1,13 @@
-OsLab StreamHttp library
+StreamHttp library
 ========================
 > The StreamHttp library defines an object-oriented layer for the HTTP specification.
 
 [![Build Status](https://travis-ci.org/OsLab/streamHttp.svg?branch=master)](https://travis-ci.org/OsLab/streamHttp)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/OsLab/streamHttp/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/OsLab/streamHttp/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/OsLab/streamHttp/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/OsLab/streamHttp/?branch=master)
-[![Total Downloads](https://poser.pugx.org/OsLab/streamHttp/downloads)](https://packagist.org/packages/OsLab/streamHttp)
-[![Latest Stable Version](https://poser.pugx.org/OsLab/streamHttp/v/stable)](https://packagist.org/packages/OsLab/streamHttp)
-[![License](https://poser.pugx.org/OsLab/streamHttp/license)](https://packagist.org/packages/OsLab/SupervisorBundle)
+[![Total Downloads](https://poser.pugx.org/oslab/stream-http/downloads)](https://packagist.org/packages/oslab/stream-http)
+[![Latest Stable Version](https://poser.pugx.org/oslab/stream-http/v/stable)](https://packagist.org/packages/oslab/stream-http)
+[![License](https://poser.pugx.org/oslab/stream-http/license)](https://packagist.org/packages/oslab/stream-http)
 
 Introduction
 -------------
