@@ -15,7 +15,8 @@ Introduction
 StreamHttp has the goal is to be simple to use and use PSR7 interfaces for be compatible with other libraries.
 StreamHttp just uses the native extensions of PHP in order to dispense with dependency like cCurl.
 
-> This library is in state W.I.P (Work In Progress).
+> :warning: This library is in state W.I.P (Work In Progress).
+
 > Your contributions are welcome.
 
 Installation
