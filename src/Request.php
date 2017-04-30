@@ -26,7 +26,7 @@ use OsLab\StreamHttp\Exception\UnexpectedTypeException;
 class Request implements RequestInterface
 {
     /**
-     * @var string
+     * @var UriInterface
      */
     protected $uri;
 
